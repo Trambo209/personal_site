@@ -7,6 +7,7 @@ body {
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
     background-attachment: fixed;  /* Makes the background fixed while scrolling */
+    color: #ffffff;
 }
 
 h1 {
@@ -14,11 +15,13 @@ h1 {
 }
 
 a {
-    color: #ffffff;
+    color: #00ffff;
     text-decoration: none;
 }
 
 a:hover {
+    color: #66ffff;
     text-decoration: underline;
 }
+
 
