@@ -1,25 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
     background-image: url('background.jpg');
-    background-size: cover;  /* This makes the image cover the entire viewport */
-    background-position: center;  /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents the image from repeating */
-    background-attachment: fixed;  /* Makes the background fixed while scrolling */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #ffffff;
 }
 
-h1 {
-    color: #ffffff;
+.part1, .links {
+    text-align: left;
+    margin-left: 20px;  /* Adds some spacing from the left edge */
 }
 
 a {
     color: #00ffff;
-    text-decoration: none;
 }
 
 a:hover {
     color: #66ffff;
-    text-decoration: underline;
 }
