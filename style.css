@@ -12,6 +12,9 @@ h1 {
     color: #FFFFFF;
 }
 
+h2 {
+    text-decoration: underline 2px solid #FFFFFF;
+}
 .part-1 {
     text-align: center; 
     max-width: 1000px;   
